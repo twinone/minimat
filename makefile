@@ -4,4 +4,4 @@ SRC_FILES := $(wildcard $(SRC_DIR)/*.c)
 
 
 all:
-	$(CC) $(SRC_FILES) -o minimat 
+	$(CC) $(SRC_FILES) -o minimat -lm
